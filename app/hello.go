@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func Hello(name string) string {
-	return "Hello, " + name
+	if name == "" {
+		return "Hello, world"
+	} else {
+		return "Hello, " + name
+	}
 }
 
 func main() {
