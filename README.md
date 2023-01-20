@@ -1,2 +1,1 @@
-# lets-go
-Trying Go
+# Learning GO
